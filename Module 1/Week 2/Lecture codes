@@ -1,0 +1,25 @@
+for total amount of scholarship given
+=SUM(J4+J7+...+others) /manual and takes time
+=SUM(J2:J31) /formula, much practical
+
+for average amount of scholarship given
+=AVERAGE(J2:J31)
+
+for number distinct students who has scholarship
+=COUNT(J2:J31)
+
+for minimum amount of scholarship given
+=MIN(J2:J31)
+
+
+what is the difference between who lives at home and the others
+=AVERAGEIF(E2:E31,1,H2:H31)
+type of accomodation = E2:E31
+if case of accomodation = 1
+average of GPA = H2:H31
+
+difference between sex
+=AVERAGEIF(D2:D31,"Male",...)
+
+difference between males who live in a dormitory and the others
+=AVERAGEIFS(H2:H31,E2:E31,1,D2:D31,"Male")
