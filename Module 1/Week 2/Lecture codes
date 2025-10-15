@@ -23,3 +23,15 @@ difference between sex
 
 difference between males who live in a dormitory and the others
 =AVERAGEIFS(H2:H31,E2:E31,1,D2:D31,"Male")
+
+
+PASS/FAIL
+=IF(H2<2.00,"FAIL")
+
+N/A
+=ISBLANK(H2)
+
+Birth Place
+text to columns -> delimited -> space
+
+=CONCATENATE(K2,L2)
