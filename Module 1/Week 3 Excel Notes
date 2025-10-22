@@ -1,0 +1,21 @@
+to split the birthdate:
+=TEXTSPLIT(P2,"/")
+
+to build a new column:
+=TEXTJOIN(".",TRUE,Q2,R2,S2)
+
+for example, if we want to create mail adresses from name and surname column:
+=LOWER(LEFT(U2,7))
+
+naming automatically:
+=SEQUENCE(24,,3,1)
+OR for dates:
+=SEQUENCE(24,,DATE(2025,10,22),7)
+
+getting commision for each selling:
+=J2*10
+
+finding some data:
+=XLOOKUP(Key,where we search,return)
+
+pivot tables: we can creat our sub table that includes automated results such as the 'max' or 'avg' of given data by columns or rows
